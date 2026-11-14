@@ -37,3 +37,13 @@ it has better syntex.
 
 - besides if you really cared about performence might as well just use, generator
 expretions, NumPy...
+
+## Generator expretions
+- genfunctions return an iterator, but more precisly they return a generator object
+of `type.generatorType` 
+
+- Unlike listcomp they dont return a full list object.
+- this is importent becauce they prevent us from creating unesesary list copies when
+instantiating new list objects, just like when using listcomp.
+
+- they use the same syntex as listcomps so they easy to use.
